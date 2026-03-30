@@ -11,22 +11,34 @@
 </h3>
 
 <p align="center">
+  <a href="https://github.com/ssinjinx/vllm-turboquant">
+    <img alt="GitHub Repo" src="https://img.shields.io/badge/This_Fork-ssinjinx%2Fvllm--turboquant-blue">
+  </a>
   <a href="https://github.com/mitkox/vllm-turboquant">
-    <img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-mitkox%2Fvllm--turboquant-blue">
+    <img alt="Upstream" src="https://img.shields.io/badge/Upstream-mitkox%2Fvllm--turboquant-green">
   </a>
   <a href="https://arxiv.org/abs/2501.04304">
     <img alt="Paper" src="https://img.shields.io/badge/Paper-TurboQuant-orange">
   </a>
   <a href="https://rocm.docs.amd.com/">
-    <img alt="ROCm" src="https://img.shields.io/badge/ROCm-7.2-green">
+    <img alt="ROCm" src="https://img.shields.io/badge/ROCm-7.2-red">
   </a>
 </p>
 
 ---
 
-## Overview
+## About This Fork
 
-This is a ** TurboQuant-enabled fork of vLLM** with **full AMD ROCm support**. TurboQuant provides 3-5x KV cache compression, enabling larger models to run on limited VRAM.
+This is a **ROCm-specific build** of [mitkox/vllm-turboquant](https://github.com/mitkox/vllm-turboquant), which itself is a **TurboQuant-enabled fork of [vLLM](https://github.com/vllm-project/vllm)** from Google Research.
+
+**TurboQuant** provides 3-5x KV cache compression, enabling larger models to run on limited VRAM.
+
+### Attribution
+
+- **TurboQuant**: [Google Research](https://arxiv.org/abs/2501.04304)
+- **vLLM**: [UC Berkeley Sky Computing Lab](https://github.com/vllm-project/vllm)
+- **TurboQuant vLLM Fork**: [mitkox/vllm-turboquant](https://github.com/mitkox/vllm-turboquant)
+- **ROCm Build & Testing**: [@ssinjinx](https://github.com/ssinjinx)
 
 ### Key Features
 
