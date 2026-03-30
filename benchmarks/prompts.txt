@@ -1,0 +1,19 @@
+# Standardized prompts for Qwen3:8b benchmarking
+
+[short]
+Explain what machine learning is in one sentence.
+
+[medium]
+Write a Python function that calculates the Fibonacci sequence using dynamic programming. Include docstrings and type hints.
+
+[long]
+Explain the differences between REST and GraphQL APIs. Include use cases, advantages, and disadvantages of each approach.
+
+[reasoning]
+Think step by step about why the sky appears blue during the day and red/orange during sunrise and sunset.
+
+[code]
+Write a complete Flask web application with a single route that returns JSON. Include proper error handling and type annotations.
+
+[math]
+A train leaves Chicago at 60 mph heading east. Another train leaves New York at 80 mph heading west. If the distance is 800 miles, how long until they meet? Show your work.
